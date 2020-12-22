@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moon Tracker</title>
+  <!-- Styling was mainly copied from Autocomplete Demo: 
+  https://us.edstem.org/courses/631/lessons/1646/slides/32350 -->
+  <script src=  "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style amp-custom>
+    main {
+      margin: 4rem auto;
+      max-width: 600px;
+      width: 1000%;
+    }
+    form {
+      position: relative;
+    }
+
+    p, label, input, select, span, div{
+      wrap: hard;
+      color: #444;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+       "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      margin: 0;
+      overflow: hidden;
+      padding: 0.5rem 1rem;
+      word-wrap: break-word;
+      user-select: none;
+      width: 100%;
+    }
+    span a{
+      font-size:80%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <main>
+    <form
+    id = 'form'
+    class='pre'
+          >
+    <p>
+      <b>Hello!</b>
+      <br> 
+      Have you ever wanted to take a photo of a iconic 
+      landmark with the moon rising behind it, but didn't know where to stand?
+      <br></br>
+      Look no further! With Moon Tracker, you can input the height 
+      and location of the landmark as well as the the day and time 
+      of your choosing (hopefully with good weather). 
+      <br></br>
+      You'll find the perfect location at the latitude and longitude provided!
+      <br></br> 
+      Happy moon gazing,
+      <br></br>
+      The Moon Tracker Team :)
+      <br>
+      <p style="font-size:90%"> Adam Wang, Alek Metzelaar, Kavel Rao</p>
+    </p>
+    <br></br><br></br>
+    
+    <span for="HeightOfTarget">Height of Target: <a>(meters)</a></span>
+    <br>
+    <input type="number" name="TargetHeight" placeholder="Enter value..." required>
+    <br></br>
+    
+    <span for="TargetLatitude">Target Latitude: <a>(North is positive, South is negative)</a></span>
+    <br>
+    <input type="number" name="TargetLat" placeholder="Enter value..." required>
+    <br></br>
+    <!-- fixed it-->
+    <span for="TargetLongitude">Target Longitude: <a>(East is positive, West is negative)</a></span>
+    <br>
+    <input type="number" name="TargetLong" placeholder="Enter value..." required>
+    <br><br>
+    <br><br>
+    
+    <span for="DateTime">Date and Time: <a>(to determine position of the Moon)</a></span>
+    <br>
+    <input type="datetime-local" name="DateTime" required>
+    <br><br>
+    <br><br>
+    
+    <label for="TimeZone">Time Zone:</label>
+      <br>
+      <select name="Zone" required>
+        <option value="PST" selected>Pacific Standard Time (GMT-8)</option>
+        <option value="AST" >Alaska Standard Time (GMT-9)</option>
+        <option value="MST">Mountain Standard Time (GMT-7)</option>
+        <option value="CST">Central Standard Time (GMT-6)</option>
+        <option value="EST">Eastern Standard Time (GMT-5)</option>
+      </select>
+    <br><br>
+      <div onclick = "submit()">Submit (Click Me!)</div>
+    </form> 
+    
+    <div class='post'>
+      <p id = 'result'></p>
+      <p id = 'validLocation'>Here is the latitude and longitude of where you should
+        stand to take the perfect moon photo with your landmark.
+        <br /><br />
+        Before you set out on your adventure, make sure it's a safe and reachable destination first. 
+        <br></br>
+        Don't forget your camera, a snack, and maybe even drag a friend along!
+        <br></br>
+        Cheers :)
+      </p>
+      <p id= 'invalidLocation'> Oops, it looks like the moon hasn't risen yet at your given time.
+         Maybe try a different location or time?
+      </p>
+    </div>
+         
+  </main>
+</body>
+</html>
+
+<script>
+  //Initially hides the result text.
+  $(".post").hide();
+  //The submit function hides the initial display and form and then shows the result and a short
+  //explanation.
+  function submit() {
+    $.get("/query?" + $("#form").serialize(), function(e) {
+      $(".pre").hide();
+      $(".post").show();
+      $("#result").text(e.location);
+      $("#result").css("font-weight","bold");
+      $("#result").show();
+      if (e.location[0] === "The moon hasn't risen yet."){
+        $("#validLocation").hide();
+      }else{
+        $('#invalidLocation').hide();
+      }
+    })
+  }
+</script>

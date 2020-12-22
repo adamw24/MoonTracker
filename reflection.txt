@@ -1,0 +1,31 @@
+What did you learn during this project?
+   We learned a lot about building an app that brings together multiple subcomponents.
+   Our program required a lot of separation of processes to keep it organized, like the
+   separate Moon, Line, and Coordinate classes that come together in the Server to run the
+   back-end of the web app. We also learned a lot about making a web app in general, since
+   we didn't have much experience with that before. This included how to display a good
+   user experience through HTML, and how to communicate between the Server and the Client.
+
+What did you enjoy during this project?
+   We enjoyed working on a project that has real-life applications. The premise of our project,
+   to help you to take photos of the moon with a landmark, is something that's really applicable
+   to real life and could be very useful. It was also nice to work on a project with a group,
+   so we could bounce ideas off each other and didn't have to do everything ourselves. We also enjoyed
+   the freedom to choose the idea of our project and how open ended the project was.
+
+What did you find challenging or frustrating during this project?
+   Not being able to web scrape the moon's data (azimuth and altitude) was frustrating because
+   it made us have to calculate that information ourselves. That alone was quite a task that
+   took lots of time and patience. Another challenge was communicating exactly what we needed
+   from each class. For example, at one point in the project, we swapped the longitude and latitude
+   parameters of one class, leading the other classes to be incompatible. We also struggled with getting 
+   input data from our HTMl page in our Server and then later displaying it back to the client. However, 
+   we figured out how to do so using a little JavaScript.
+
+What did you find particularly helpful for your learning during this project?
+   Researching about what we needed to make this program work correctly was a big part of learning.
+   We even used a little bit of 3D calculus to help us build our program, especially in the 
+   early stages. Additionally, communicating our ideas and knowledge with our teammates made it a lot easier
+   to learn and have clear goals. For developing the web application using HTML and the Server, we based them 
+   off the in-class demos (like Autocomplete) and then utilized these components in our own project.
+   

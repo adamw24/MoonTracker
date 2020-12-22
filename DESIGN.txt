@@ -1,0 +1,37 @@
+The idea behind this project is that we want to find a position on the ground in which
+we could see the moon align with some point above the ground (the target). So, from a 
+rudimentary perspective, we need information about two 3D points -- the moon and target.
+This led to the creation of the Coordinate class, which is a basic class that contains
+x, y, and z position values so we can describe points in a 3D context. With these two 
+points, we can essentially draw a line that goes through both of them and find out where
+this line hits the ground (or some given level). Ultimately, this is where we stand to see
+the moon. So, we wrote the Line class, which performs this function. Additionally, it 
+checks if the moon can actually be seen, the target is too low/high, etc. However, using
+a 3D coordinate system when describing the position of planets is not so simple.
+
+Initially, we were going to use an HTML parser called jsoup to gather our information
+about the moon's position in the sky. mooncalc.org provides live information regarding
+the position of the moon in the sky (azimuth and altitude) based on a given latitude
+and longitude. However, for some reason, we couldn't parse data from this website.
+Unfortunately, jsoup would establish a connection to a version of the website that 
+didn't contain any relevant data. So, the next thing we thought of was manually
+calculating the moon's position in the sky ourselves.
+
+The Moon class contains a series of mathematical calculations that takes into account
+the datetime, the angle of the earth, and many other factors. It factors in various 
+astronomical algorithms to determine the absolute position of the moon in relation to
+the earth, in the form of Right Ascension and Declination. Ultimately, we use this to 
+calculate the moon's position relative to the target and observer based 
+on the target's latitude and longitude, the azimuth and altitude. 
+So, rather than web-scraping the data about the moon's azimuth and altitude
+(which was not possible in our case), we implemented an in-house computation.
+
+For the majority of this project, we used a scanner to read our input into the console
+so that we could execute the program. However, we wanted the user to have a nicer way
+to input their data. So, we decided to create a web app. We used the Autocomplete
+Assessment's web app as a starting point to create ours because we don't have a lot of experience
+with web design. It simply contains several boxes that we need to calculate what the user wants,
+and it even has a nice calendar to pick the date and time. The web app gathers user input through
+an HTML form, and sends it to the server using a JQuery get request. It then alters the page to
+show the results using JQuery based on the response the server sends back to the get request.
+

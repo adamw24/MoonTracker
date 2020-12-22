@@ -1,0 +1,245 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.10.0 - built May  5 2020 05:22:55
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12006000, The X.Org Foundation
+
+
+Wed Nov 18 03:08:16 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 16001
+ vncext:      created VNC server for screen 0
+
+Wed Nov 18 03:08:20 2020
+ Connections: accepted: 127.0.0.1::60848
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+ Connections: accepted: 127.0.0.1::60850
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Nov 18 03:08:21 2020
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 18 03:08:23 2020
+ VNCSConnST:  closing 127.0.0.1::60850: Clean disconnection
+ EncodeManager: Framebuffer updates: 4
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4 rects, 1.34368 Mpixels
+ EncodeManager:            64 B (1:83980.8 ratio)
+ EncodeManager:   Total: 4 rects, 1.34368 Mpixels
+ EncodeManager:          64 B (1:83980.8 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+Failed to connect to bus: No such file or directory
+dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
+xsettingsd: Loaded 5 settings from /home/.xsettingsd
+xsettingsd: Created window 0x200001 on screen 0 with timestamp 902054866
+xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
+xsettingsd: Took ownership of selection _XSETTINGS_S0
+
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+Wed Nov 18 03:08:43 2020
+ Connections: accepted: 127.0.0.1::60862
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+
+Wed Nov 18 03:08:46 2020
+ VNCSConnST:  closing 127.0.0.1::60862: Clean disconnection
+ EncodeManager: Framebuffer updates: 1
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4 rects, 1.03617 Mpixels
+ EncodeManager:            64 B (1:64761.1 ratio)
+ EncodeManager:     Indexed RLE: 1 rects, 315 pixels
+ EncodeManager:                  513 B (1:2.47953 ratio)
+ EncodeManager:   Total: 5 rects, 1.03648 Mpixels
+ EncodeManager:          577 B (1:7185.41 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 1.03648 Mpixels in / 1.03648 Mpixels out
+ ComparingUpdateTracker: (1:1 ratio)
+
+Wed Nov 18 03:09:02 2020
+ VNCSConnST:  closing 127.0.0.1::60848: Clean disconnection
+ EncodeManager: Framebuffer updates: 6
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 7 rects, 2.38016 Mpixels
+ EncodeManager:            112 B (1:85006.5 ratio)
+ EncodeManager:     Indexed RLE: 2 rects, 630 pixels
+ EncodeManager:                  919 B (1:2.76823 ratio)
+ EncodeManager:   Total: 9 rects, 2.38079 Mpixels
+ EncodeManager:          1.00684 KiB (1:9236.92 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 18 03:09:32 2020
+ Connections: accepted: 127.0.0.1::60894
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+
+Wed Nov 18 03:09:33 2020
+ VNCSConnST:  closing 127.0.0.1::60894: Clean disconnection
+ EncodeManager: Framebuffer updates: 1
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 3 rects, 1.03619 Mpixels
+ EncodeManager:            48 B (1:86350.3 ratio)
+ EncodeManager:     Indexed RLE: 1 rects, 285 pixels
+ EncodeManager:                  499 B (1:2.30862 ratio)
+ EncodeManager:   Total: 4 rects, 1.03648 Mpixels
+ EncodeManager:          547 B (1:7579.47 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 18 03:16:50 2020
+ Connections: accepted: 127.0.0.1::33562
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+
+Wed Nov 18 03:16:56 2020
+ VNCSConnST:  closing 127.0.0.1::33562: Clean disconnection
+ EncodeManager: Framebuffer updates: 3
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4 rects, 1.03648 Mpixels
+ EncodeManager:            64 B (1:64780.8 ratio)
+ EncodeManager:     Indexed RLE: 1 rects, 285 pixels
+ EncodeManager:                  499 B (1:2.30862 ratio)
+ EncodeManager:   Total: 5 rects, 1.03677 Mpixels
+ EncodeManager:          563 B (1:7366.11 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 18 03:18:25 2020
+ Connections: accepted: 127.0.0.1::33688
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Nov 18 03:18:26 2020
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  FramebufferUpdateRequest 1312x790 at 0,0 exceeds framebuffer
+              1244x748
+ VNCSConnST:  FramebufferUpdateRequest 1312x790 at 0,0 exceeds framebuffer
+              1244x748
+
+Wed Nov 18 03:18:27 2020
+ VNCSConnST:  closing 127.0.0.1::33688: Clean disconnection
+ EncodeManager: Framebuffer updates: 2
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 5 rects, 1.96663 Mpixels
+ EncodeManager:            80 B (1:98332.4 ratio)
+ EncodeManager:     Indexed RLE: 2 rects, 360 pixels
+ EncodeManager:                  616 B (1:2.37662 ratio)
+ EncodeManager:   Total: 7 rects, 1.96699 Mpixels
+ EncodeManager:          696 B (1:11304.7 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 18 03:20:46 2020
+ Connections: accepted: 127.0.0.1::33860
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+
+(gedit:412): dconf-WARNING **: 03:20:56.088: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:56.093: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): IBUS-WARNING **: 03:20:56.117: Unable to load /var/lib/dbus/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.328: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.340: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.357: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.374: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.391: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.408: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.425: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.442: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.458: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.475: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.492: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.509: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.526: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.543: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.561: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.578: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.594: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.611: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:20:59.629: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:21:00.998: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:21:00.998: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(gedit:412): dconf-WARNING **: 03:21:04.785: failed to commit changes to dconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+thunar: Failed to initialize Xfconf: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file ?/var/lib/dbus/machine-id?: No such file or directory
+
+
+(Thunar:446): IBUS-WARNING **: 03:21:10.094: Unable to load /var/lib/dbus/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+
+(Thunar:446): thunar-WARNING **: 03:21:10.134: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:446): thunar-WARNING **: 03:21:10.134: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+ThunarThumbnailer: failed to create proxy: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file “/var/lib/dbus/machine-id”: No such file or directory
+Wed Nov 18 03:21:12 2020
+ VNCSConnST:  closing 127.0.0.1::33860: Clean disconnection
+ EncodeManager: Framebuffer updates: 402
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 103 rects, 3.50406 Mpixels
+ EncodeManager:            1.60938 KiB (1:8505.75 ratio)
+ EncodeManager:     Bitmap RLE: 19 rects, 13.688 kpixels
+ EncodeManager:                 693 B (1:79.3362 ratio)
+ EncodeManager:     Indexed RLE: 248 rects, 508.136 kpixels
+ EncodeManager:                  70.7861 KiB (1:28.0819 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 199 rects, 608.569 kpixels
+ EncodeManager:                  557.057 KiB (1:4.27166 ratio)
+ EncodeManager:   Total: 569 rects, 4.63445 Mpixels
+ EncodeManager:          630.129 KiB (1:28.7402 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 28.4592 Mpixels in / 3.58584 Mpixels out
+ ComparingUpdateTracker: (1:7.93657 ratio)
